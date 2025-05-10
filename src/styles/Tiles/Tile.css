@@ -1,0 +1,22 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+.tile-container {
+
+    height: 50px;
+    width: 50px;
+    border: 10 solid;
+}
+
+.white-tile {
+    height: 100%;
+    background-color: white;
+}
+
+.black-tile {
+    height: 100%;
+    background-color: black;
+}

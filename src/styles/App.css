@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: darkgreen;
+  height: 100vh;
+  padding: 10px;
+}
