@@ -1,5 +1,6 @@
 import React from "react";
-import SquareTile from "./SquareTile"; // include ./ if it's a local file
+import SquareTile from "./SquareTile";
+import King from "./King";
 import "../styles/Board.css"
 
 export default function Board() {
@@ -24,6 +25,7 @@ export default function Board() {
           ))}
         </div>
       ))}
+      <King />
     </div>
   );
 }
